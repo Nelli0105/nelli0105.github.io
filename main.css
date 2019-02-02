@@ -1,0 +1,394 @@
+#NelliPhoto 
+{
+	position: absolute;
+	width: 300px;
+	height: 310px;
+	border-radius: 50%;
+	cursor: pointer;
+	margin-left: 400px;
+	margin-top: -330px;
+	border: none;
+	border-color: white;
+	transition: transform 3s, border 3s, border-color 3s;
+}
+#NelliPhoto:hover
+{
+	transform: scale(1.1);
+}
+.head
+{
+	display:inline-flex;
+    top:0;
+    left: 0;
+    right: 0;
+	position: fixed;
+	z-index: 1;
+	background: rgb(109,166,157);
+	
+}
+.lineTop
+{
+	margin-top: 10px;
+	margin-left: 10px;
+	height: 3px;
+	width: 170px;
+	background-color: rgb(255,250,250);
+}
+.line1
+{
+	margin-top: 50px;
+	
+	height: 5px;
+	width: 100%;
+	background-color: rgb(0,40,70);
+}
+.lineBottom
+{
+	height: 3px;
+	width: 870px;
+	margin-top: 70px;
+	margin-left: 40px;
+	background-color: rgb(255,250,250);
+}
+body 
+{
+	
+	background-color: rgb(109,166,157);
+	background-size: 1000px;
+}
+.topButt
+{
+	background-image: url("ramka-white-belye-fon-frame-spring-flowers-tsvety-floral.jpg");
+	background-size: cover;
+	height: 720px;
+	
+}
+.home
+{
+	position: absolute;
+	right: 45;
+	top: 10;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	transition: transform 2s;
+}
+.home:hover
+{
+	transform: scale(1.1);
+}
+.Khachatryan
+{
+	margin-top: -20px;
+	margin-left: 80px;
+	margin-bottom: 10px;
+
+}
+#Nelli
+{
+	margin-top: 12px;
+	margin-left: 30px;
+	font-size: 35px; 
+	font-style: italic;
+	color: rgb(255,250,250);
+}
+
+.textContact
+{
+	margin-top: 12px;
+	margin-left: 462px;
+	font-size: 25px;
+}
+.textEducation
+{
+	margin-top: 12px;
+	margin-left: 672px;
+	font-size: 25px;
+}
+.textExp
+{
+	margin-top: 15px;
+	margin-left: 880px;
+	font-size: 25px;
+}
+.textSkill
+{
+	margin-top: 17px;
+	margin-left: 1110px;
+	font-size: 25px;
+}
+#butt1
+{
+	width: 130px;
+	height: 130px;
+	background-image: url("contact-icon-vector-10599257.jpg");
+	margin-top: -30px;
+	margin-left: 440px;
+}
+
+#butt2
+{
+	width: 160px;
+	height: 160px;
+	background-image: url("education-infographic-template_23-2147488675.jpg");
+	margin-top: -140px;
+	margin-left: 640px;
+}
+
+#butt3
+{
+	width: 175px;
+	height: 175px;
+	background-image: url("photo-1519377483941-d4c7ea7ae521.jpg");
+	margin-left: 850px;
+	margin-top: -70px;
+}
+
+#butt4
+{
+	width: 180px;
+	height: 180px;
+	background-image: url("technology-2082642-1200x675.jpg");
+	margin-top: -60px;
+	margin-left: 1050px;
+}
+#butt:hover, #butt1:hover, #butt2:hover, #butt3:hover, #butt4:hover, .home:hover
+{
+	transform: scale(1.2) rotate(360deg);
+	border: solid rgb(0,40,60);
+}
+
+#butt
+{
+	width: 110px;
+	height: 110px;
+	
+	border-radius: 50%;
+	background-image: url("images.png");
+	margin-left: 250px;
+}
+
+#butt, #butt1, #butt2, #butt3, #butt4
+{
+	
+	border-radius: 50%;
+	border: none;
+	border-color: rgb(0,40,70);
+	background-position: center;
+	background-size: cover;
+	outline: none;
+	cursor: pointer;
+	transition: transform 3s;
+}
+
+.inline
+{
+
+	
+	text-underline-position: center;
+}
+
+.buttons
+{
+
+	padding-top: 200px;
+}
+.backgroundAbotMe, .backgroundContact, .backgroundEducation, .backgroundExp, .backgroundSkills
+{
+	margin-top: 30px;
+	background-size: cover;
+	height: 450px;
+	background-image: url("cvety-floral-belye-white-fon-spring-flow-1316949.jpg");
+
+	border-top: solid 5px;
+	border-left: solid 5px;
+	border-right: solid 5px;
+	border-bottom: solid 5px;
+	border-color: rgb(0,40,70);
+}
+.backgroundEducation
+{
+	padding-bottom: 50px;
+}
+.birthdate
+{
+	margin-top: 20px;
+	margin-left: 50px;
+	font-size: 25px;
+	color: rgb(0,40,70);
+	font-style: oblique;
+}
+.text
+{
+	margin-top: 30px;
+	text-align: center;
+	font-style: italic;
+	font-size: 30px;
+	color: rgb(0,40,70);
+}
+h1
+{
+	padding-top: 25px;
+	padding-left: 50px;
+	color: white;
+	font-style: italic;
+}
+.aboutCont
+{
+	display: flex;
+	padding-top: 30px;
+	font-size: 27px;
+	color: rgb(0,40,70);
+}
+.spanAbotCont
+{
+	font-size: 27px;
+	margin-left: 30px;
+	font-style: italic;
+	font-weight: bold;
+	border-bottom: solid;
+	color: rgb(0,40,70);
+}
+#contact, #education, #experience, #skills, #aboutme
+{
+	margin-top: 50px;
+	padding-top: 30px;
+	margin-left: 65px;
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic ;
+
+	color: rgb(0,40,70);
+}
+#aboutme
+{
+	margin-top: 50px;	
+}
+#skills
+{
+	
+	margin-left: 90px;
+}
+.contactlogo
+{
+	width:50px;
+	height: 50px;
+	margin-left: 80px;
+	border-radius: 25%; 
+	transition: transform 1.4s;
+}
+.contactlogo:hover
+{
+	transform: scale(1.2);
+}
+.cont
+{
+	display: inline-block;
+	position: relative;	
+}
+.log
+{
+	position: absolute;
+	margin-top : 30px;
+	margin-left: 50px;
+	height: 150px;
+	width: 150px;
+	border: solid;
+	border-color: rgb(0,40,70);
+	border-radius: 50%;
+	opacity: 0.8;
+}
+
+.log:hover
+{
+	opacity: 1;
+}
+.diff
+{
+	
+	margin-left: 350px;
+}
+.logos
+{
+	margin-left: 270px;
+	padding-top: 20px;
+}
+#experienceInfo
+{
+
+}
+table, th, td {
+	
+	margin-left: 500px;
+	text-align: center;
+	border-bottom: 5px solid;
+	border-bottom-color: rgb(0,40,70);
+    border-collapse: collapse;
+    height: 50px;
+    width: 1000px; 
+    font-size: 20px;
+    color: rgb(0,40,70);
+}
+tr:hover
+{
+	background-color: rgb(140,180,175);
+	color: white;
+}
+
+th
+{
+	background-color: rgb(0,40,70);
+	color: white;
+	border-bottom: 1px solid;
+}
+
+table
+{
+	margin-top: 50px;
+}
+
+.diffSkills
+{
+
+	margin-left: 360px;
+	margin-top: 70px;
+	margin-bottom: 100px;
+	width: 540px;
+	font-size: 35px;
+	font-style: italic;
+	border-bottom: 3px solid rgb(0,40,70);
+
+}
+.bottomColor
+{
+	
+    margin-bottom: -30px;
+    margin-right: -7px;
+    margin-left: -20px;
+	height: 35px;
+	background: rgb(0,40,70);
+	
+
+}
+.footerText
+{
+	padding-top: 5px;
+	color: white;
+	margin-left: 700px;
+	font-size: 15px;
+
+}
+.hrefEducation
+{
+	color: rgb(0,40,70);
+	cursor: pointer;
+}
+.hrefEducation:hover
+{
+	color: white;
+}
+html
+{
+	scroll-behavior: smooth;
+}
+@media screen and (device-aspect-ratio : 40/71)
